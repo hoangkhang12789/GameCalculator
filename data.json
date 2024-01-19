@@ -1,0 +1,106 @@
+{
+    "vanGoThong": [
+      {
+        "goThong": 15,
+        "type": "5",
+        "time": 450
+      },
+      {
+        "goThong": 90,
+        "type": "30",
+        "time": 3240
+      },
+      {
+        "goThong": 300,
+        "type": "100",
+        "time": 13500
+      }
+    ],
+    "vanGoSoi": [
+      {
+        "res": {
+          "goThong": 6,
+          "goSoi": 9
+        },
+        "type": "3",
+        "time": 720
+      },
+      {
+        "res": {
+          "goThong": 40,
+          "goSoi": 60
+        },
+        "type": "20",
+        "time": 5520
+      },
+      {
+        "res": {
+          "goThong": 100,
+          "goSoi": 150
+        },
+        "type": "50",
+        "time": 16200
+      }
+    ],
+    "vanGoTech": [
+      {
+        "res": {
+          "goSoi": 2,
+          "goTech": 6
+        },
+        "type": "1",
+        "time": 1200
+      },
+      {
+        "res": {
+          "goSoi": 10,
+          "goTech": 50
+        },
+        "type": "5",
+        "time": 6600
+      },
+      {
+        "res": {
+          "goSoi": 30,
+          "goTech": 90
+        },
+        "type": "15",
+        "time": 23400
+      }
+    ],
+    "thoiSat": {
+      "quangSat": 3,
+      "quangHongNgoc": 1
+    },
+    "thoiDong": {
+      "quangDong": 3,
+      "quangHongNgoc": 1
+    },
+    "thoiBac": {
+      "quangBac": 3,
+      "quangHongNgoc": 1
+    },
+    "thoiBacDNCC": {
+      "thoiBac": 3,
+      "quangBichNgoc": 2
+    },
+    "lumion": {
+      "quangLamNgoc": 1,
+      "quangBichNgoc": 2
+    },
+    "basicConstructionKit": {
+      "vanGoThong": 1,
+      "thoiSat": 1,
+      "thoiDong": 1
+    },
+    "intermediateConstructionKit": {
+      "basicConstructionKit": 3,
+      "vanGoSoi": 3,
+      "thoiBacDNCC": 1
+    },
+    "advancedConstructionKit": {
+      "intermediateConstructionKit": 4,
+      "vanGoTech": 3,
+      "lumion": 5
+    }
+  }

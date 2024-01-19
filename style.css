@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+.main {
+  padding: 5px;
+  user-select: none;
+}
+.res {
+  padding: 30px;
+  /* border: 2px solid #000; */
+}
+.calculate {
+  padding: 30px;
+  /* border: 2px solid #000; */
+}
+.item {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 5px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  margin: 10px 0;
+  border: solid black 2px;
+  padding: 10px;
+}
+.box img {
+  max-width: 100px;
+}
+
+.box input {
+  margin-top: 10px;
+  border: 2px solid #000;
+  padding: 4px;
+  text-align: center;
+}
+.calBox{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 5px;
+  border: 2px solid #000;
+  padding: 4px;
+  text-align: center;
+}
+.calBox .image  img{
+  padding: 4px;
+  text-align: center;
+}
+.calBox .type  label{
+  margin-top: 10px;
+  border: 2px solid #000;
+  padding: 4px;
+  text-align: center;
+}
+.calBox .type  input{
+  margin-top: 10px;
+  border: 2px solid #000;
+  padding: 4px;
+  text-align: center;
+}
+.calBox .type{
+  border: 2px solid #000;
+  padding: 4px;
+  text-align: center;
+}
+.space {
+  justify-content: space-around;
+}
+.full {
+  width: 100vw;
+}
+.flex {
+  display: flex;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+.align-items {
+  align-items: center;
+}
+.blue{
+  background-color: aqua;
+}
