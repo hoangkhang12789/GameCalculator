@@ -22,7 +22,7 @@ let goTech = document.querySelector(".vanGoTech").querySelectorAll(".type")
 let goSoi = document.querySelector(".vanGoSoi").querySelectorAll(".type")
 let goThong = document.querySelector(".vanGoThong").querySelectorAll(".type")
 let data;
-fetch('./data.json')
+fetch('https://hoangkhang12789.github.io/JsonServer/dragonsiege.json')
     .then((response) => response.json())
     .then((json) => {
         data = json;
